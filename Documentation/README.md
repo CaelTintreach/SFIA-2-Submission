@@ -87,7 +87,7 @@ Above is an adjusted risk assessment after the issue with MySQL database access 
 Deployment of the service requires the following:
 
 1. At least three GCP Machines, preferably running on the same regional network for ease of connection
-   1. One machine configured as a control node and Jenkins build server via installing Jenkins and carrying out configuration, logging into DockerHub, and installing Ansible
+   1. One machine configured as a control node and Jenkins build server via installing Jenkins and carrying out configuration and also logging into DockerHub
    2. One machine to act as swarm manager
    3. One machine to act as a swarm worker
 
