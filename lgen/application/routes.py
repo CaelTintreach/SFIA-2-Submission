@@ -4,5 +4,5 @@ import random
 
 @app.route('/prize/lgen', methods = ['GET'])
 def lGen():
-	prizePool = ["A", "B"]
+	prizePool = ["A", "B", "B", "B"]
 	return Response(random.choice(prizePool), mimetype='text/plain')

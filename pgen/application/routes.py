@@ -11,13 +11,13 @@ def prize():
 			prizeVal = "no prize!"
 			return Response(prizeVal, mimetype='text/plain')
 		elif data["Number"]  == "B":
-			prizeVal = "a small prize!"
+			prizeVal = "a massive prize!"
 			return Response(prizeVal, mimetype='text/plain')
 		else:
 			return Response('an error!', mimetype='text/plain')
 	if data["Letter"] == "B":
 		if data["Number"]  == "A":
-			prizeVal = "a small prize!"
+			prizeVal = "no prize!"
 			return Response(prizeVal, mimetype='text/plain')
 		elif data["Number"]  == "B":
 			prizeVal = "a big prize!"
